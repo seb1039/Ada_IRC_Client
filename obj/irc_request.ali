@@ -1,0 +1,124 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U irc_request%b		irc_request.adb		f1e9c796 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+U irc_request%s		irc_request.ads		f9391053 EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20190518041256 b5988c27 gnat%s
+D g-socket.ads		20190518041256 605fb491 gnat.sockets%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-c.ads		20190518041254 5421119b interfaces.c%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D irc_request.ads	20200107172330 379271af irc_request%s
+D irc_request.adb	20200107172344 688f6354 irc_request%b
+D system.ads		20190518041255 4635ec04 system%s
+D s-conca2.ads		20190518041255 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20190518041256 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-oscons.ads		20190518093549 c13b1f65 system.os_constants%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041254 ede33ef8 system.pool_global%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-string.ads		20190518041255 8fe54fb7 system.strings%s
+D s-ststop.ads		20190518041254 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [connect irc_request 9 14 none]
+G c Z s b [canal_chose irc_request 10 14 none]
+G c Z s b [send_message irc_request 11 14 none]
+G c Z s b [quit irc_request 12 14 none]
+G c Z s b [request irc_request 15 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|2r6 2r24 16|1r6 1r23
+X 7 a-textio.ads
+57K13*Text_IO 727e16 15|2w10 2r28 16|1w10 1r27
+508U14*Put_Line 16|12s7 15s7
+X 10 gnat.ads
+34K9*GNAT 57e9 15|1r6 1r24
+X 11 g-socket.ads
+55K14*Sockets 1555e17 15|1w11 1r29
+379U14*Initialize 16|9s7
+412I9*Socket_Type<integer> 15|6r13
+478n23*Socket_Stream{478E9} 16|11r33
+493I9*Port_Type<integer> 15|9r53 16|5r53
+598R9*Sock_Addr_Type 601e14 15|7r14
+599r7*Addr{518R9} 16|7m15
+600i7*Port{493I9} 16|8m15
+649V13*Addresses{518R9} 16|7s23
+666V13*Get_Host_By_Name{632R9} 16|7s33
+1091U14*Create_Socket 16|10s7
+1092i7 Socket{412I9} 16|10r23
+1094e7 Mode{478E9} 16|11r23
+1129U14*Close_Socket 16|34s7
+1129i28 Socket{412I9} 16|34r20
+1132U14*Connect_Socket 16|13s7
+1133i7 Socket{412I9} 16|13r23
+1134r7 Server{598R9} 16|14r23
+1296P9*Stream_Access(5|39R9)
+1299V13*Stream{1296P9} 16|39s20
+X 15 irc_request.ads
+4K9*IRC_Request 17l5 17e16 16|3b14 42l5 42t16
+6i4*Client{11|412I9} 16|10m33 13r33 34r30 39r28
+7r4*Address{11|598R9} 16|7m7 8m7 14r33
+9U14*connect 9>22 9>42 16|5b14 16l8 16t15
+9a22 hostname{string} 16|5b22 7r50
+9i42 HostPort{11|493I9} 16|5b42 8r23
+10U14*canal_chose 10>26 16|18b14 22l8 22t19
+10a26 canal{string} 16|18b26 21r24
+11U14*send_message 11>27 11>44 16|24b14 28l8 28t20
+11a27 channel{string} 16|24b27 26r37
+11a44 msg{string} 16|24b44 27r24
+12U14*quit 12>19 16|30b14 35l8 35t12
+12a19 channel{string} 16|30b19 33r24
+15U14*request 15>22 15>38 16|20s7 26s7 32s7 37b14 40l8 40t15
+15a22 req_T{string} 16|20r15 26r15 32r15 37b22 39r37
+15a38 msg{string} 16|21r15 27r15 33r15 37b38 39r45
+

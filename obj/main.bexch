@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/seb/git/Ada_IRC_Client/ada_irc_client.gpr
+20200107092412
+[BOUND OBJECT FILES]
+/home/seb/git/Ada_IRC_Client/obj/irc_request.o
+/home/seb/git/Ada_IRC_Client/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/seb/git/Ada_IRC_Client/obj/
+-L/home/seb/git/Ada_IRC_Client/obj/
+-L/home/seb/opt/GNAT/2019/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adalib/
+-static
+-static-libgcc
+/home/seb/opt/GNAT/2019/lib/gcc/x86_64-pc-linux-gnu/8.3.1/adalib/libgnat.a
+-ldl
